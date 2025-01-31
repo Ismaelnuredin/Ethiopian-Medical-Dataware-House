@@ -1,11 +1,14 @@
-Introduction
+### Introduction
+
 The goal of this project is to:
 
-Extract relevant text and media data from public Telegram channels focused on Ethiopian medical businesses.
-Store raw data for preprocessing and analysis.
-Perform data cleaning and transformation for further analysis.
+-Extract relevant text and media data from public Telegram channels focused on Ethiopian medical businesses.
+-Store raw data for preprocessing and analysis.
+-Perform data cleaning and transformation for further analysis.
 
-Methodology
+### Methodology
+
+
 Telegram Scraping with Telethon
 We use Telethon to interact with Telegram's API, allowing us to scrape public channels like EAHCI and other relevant channels.
 The scraper.py script handles connecting to Telegram, extracting messages and media, and storing them in a local database for further processing.
